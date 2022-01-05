@@ -1,0 +1,195 @@
+body { margin:0; 
+}
+
+a:link, a:visited {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    }
+
+.header-container {
+   
+    width: auto;
+    height: auto;
+    
+    margin: 0px;
+}
+
+.header-style {
+    background-color: rgba(18, 78, 97, 0.835);
+    width: auto;
+    height: 500px;
+    font-size: 24px;
+
+}
+
+.header-links-logo { 
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header-links-logo .links {
+    display: flex;
+    padding-top: 24px;
+    margin-left: 800px; 
+    column-gap: 20px;
+    
+}
+/* good up to here (everything above) dont mess around it just works */
+.header-information {
+    
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.header-title {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 0px;
+    width: 400px;
+    
+}
+.header-title .header-text {
+    color: rgba(255, 255, 255, 0.486);
+    font-size: 24px;
+    flex: 1;
+
+}
+
+.image-placeholder {
+    background-color: rgba(100, 148, 237, 0.514);
+    display: flex;
+    height: 350px;
+    width: 600px;
+    align-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding-right: 275px;
+    
+}
+.header-information .image-placeholder {
+    flex-direction: row-reverse;
+    text-align: center;
+
+}
+/* good up to here (everything above) dont mess around it just works */
+/* this concludes the header section of the page */
+
+.content-heading {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+}
+
+div.image-text-container {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+div.content-image {
+    flex: 1;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    height: 400px;
+    margin: 25px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    border:8px solid rgb(12, 69, 107);
+    border-radius: 25px;
+}
+
+.content-text {
+    display: block;
+}
+
+.qoute-container {
+    width: auto;
+    background-color: rgba(91, 93, 100, 0.739);
+    height: 500px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+.qoute {
+     display: flex;
+     text-align: center;
+     font-size: 40px;
+     width: 500px;
+ }
+
+.qouted {
+    display: flex;
+    text-align: end;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+h1.reference-heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    width: auto;
+    
+}
+
+
+.reference-container {
+    display: flex;
+    text-align: center;
+    flex: 1;
+    vertical-align: top;
+    justify-content: center;
+    width: auto;
+    height: 500px;
+    gap: 100px;
+}
+
+
+
+.button-containers {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.button {
+    width: 300px;
+    height: 250px;
+    gap: 100px;
+    color: rgb(0, 10, 10);
+    background-color: cadetblue;
+    border: 4px solid black;
+    border-radius: 16px;
+    font-size: large;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    height: 150px;
+    background-color: rgb(25, 96, 98);
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
