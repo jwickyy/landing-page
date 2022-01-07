@@ -9,15 +9,15 @@
 
 
 <body>
+
 <div class="header-container">
-    <div class="header-style">
+    
 
     <header>
     
         <div class="header-links-logo">
             <p>WickyWeb</p>
             <p>
-    <!--change these to link proper concepts using https links-->
             <div class="links">
                 <div> <a style="text-decoration:none" href= "https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png"> ALPHA  </a>  </div> 
                 <div> <a style="text-decoration:none" href= "https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png"> BETA </a>   </div>
@@ -33,75 +33,77 @@
         
 
         <div class="header-title"> 
-            <h3> Can we estimate where a break in a transmission line occurs ? </h3> 
+            <h3 class="header-heading"> Can we estimate where a break in a transmission line occurs ? </h3> 
         
         
             <div class="header-text">
-                <p>This page contains resources to explain transmission line theory, wave reflections and the operating principles of time domain reflectometers.  </p>
+                <p> Well sure we can but its going to take a bit of understanding of electrical waveforms and how current see's a potential path for flow. Keep in mind that this page is a work in progress distance calculator program coming soon :-)   </p>    
             </div>
 
-            <div class="header-button">
-                <button> Start learning </button>
-            </div>
+            <button class="header-button"> Calculate Distance </button>
+             
             
 
         </div>
 
         <div class="image-placeholder">
-            <h4>This is a placeholder for an image</h4>
+            <img class="gif" src="images/electroboom.gif" alt="An animated GIF is displayed here">
+    
         </div>
 
     </div>
 
 
 
-    </div>
+    
 
 </div>
-<!--everything above works heck ya -->
 
 <!--This is where the 1st section (Header) of the page ends (1)--> 
+<div class="content-container">
 
-<div class="content-heading">
-    <h2> Prerequisite concepts to first understand </h2>
-</div>
+    <div class="content-heading">
+        <h2> Prerequisite concepts to first understand </h2>
+    </div>
 
-<!--images and boxes for each concept will need to be added later in CSS investigate for how to make an image a link in additon to being a button-->
-<div class="image-text-container">
+    <div class="image-text-container">
 
-    <div class="content-image">
-        <img src="images/transmission -line.jpg" alt="Transmission line">   
-        <span class="content-text">subtext for image/video</p>
+        <div class="content-image">
+            <img src="images/transmission -line.jpg" alt="Transmission line">   
+            <span class="content-text">A transmission line is a specialized cable or other structure designed to conduct electromagnetic waves in a contained manner.</p>
     </div>
    
-    <div class="content-image">
-        <img src="images/reflection.png" alt="Wave Reflections">
-        <p class="content-text">subtext for image/video</p>
-    </div>
+        <div class="content-image">
+            <img src="images/reflection.png" alt="Wave Reflections">
+            <p class="content-text">When a transmission line is terminated in a short circuit termination, all of the energy is reflected back to the source. The reflected wave is equal in magnitude to the incident wave (r = 1)</p>
+        </div>
 
-    <div class="content-image">
-        <img src="images/scope-reflection.jpg" alt="Oscilloscope Reflection">
-        <p class="content-text">subtext for image/video</p>
-    </div>
+        <div class="content-image">
+            <img src="images/scope-reflection.jpg" alt="Oscilloscope Reflection">
+            <p class="content-text"> The amount of time it takes between the first and second voltage spikes gives us (Delta t) or the amount of time that is required for the signal to be reflected back to the oscilloscpe.   </p>
+        </div>
 
-    <div class="content-image">
-        <img src="images/distance.jpg"alt="Rough Distance from A to B">
-        <p class="content-text">subtext for image/video</p>
-    </div>
+        <div class="content-image">
+            <img src="images/distance.jpg"alt="Rough Distance from A to B">
+            <p class="content-text">Now to roughly estimate the distance of where a break in the transmission is we can simply multiply Delta time by the speed of light (m/nS) in this case, then multiplied by the constant in which "c" ( speed of light ) travels through a copper wire and divide by two to get a rough distance in meters of where the break in the line is. </p>
+        </div>
 
+    </div>
 </div>
-
 <!--This is where the images and subtext concepts section ends (2) -->
 
 <div class="qoute-container">
-    <p class="qoute"> <strong> Life is and will ever remain an equation incapable of solution, but it contains certain known factors.</strong> </p>
+    <p class="qoute"> Life is and will ever remain an equation incapable of solution, but it contains certain known factors. </p>
     <p class="qouted">-Nikola Tesla<strong</p>
 </div>
 <!--This is where the qoute section ends (3)-->
-<h1 class="reference-heading"> Video Resources Section </h1    >
+
+<div class="ref-container">
+
+    <h1 class="reference-heading"> Video Resources Section </h1    >
 
 
-<div class="reference-container">
+    <div class="reference-container">
     
         <div class="button-containers">
             <a href="https://www.youtube.com/watch?v=sVBFdYgBre4"><button class="button">Transmission lines</button> </a>
@@ -110,8 +112,8 @@
             <a href="https://www.youtube.com/watch?v=clQK3ACtnZ0"><button class="button">Our Lord and Savior the Rectifier</button> </a>
             
         </div>
-</div>
-  
+    </div>
+</div>  
 <!--This is where the references section will end (4)-->
 
 <div class="footer">
@@ -122,4 +124,3 @@
 </body>
     
 </html>
-<!--Wave reflections Time Domain Reflectometers (TDRs) Our Lord and Savior the Rectifier -->
